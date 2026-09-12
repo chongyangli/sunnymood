@@ -78,7 +78,7 @@ fun PrivacyPolicyContent() {
         PolicyParagraph("6. 未成年人")
         PolicyBody("本 App 不面向未满 14 周岁的儿童收集任何个人信息。")
         PolicyParagraph("7. 联系我们")
-        PolicyBody("如对本政策有任何疑问或投诉，请联系：support@sunnymood.app（占位邮箱，发布前请替换为你的真实邮箱）。")
+        PolicyBody("如对本政策有任何疑问或投诉，请联系：cyli940909@163.com。")
         Spacer(Modifier.height(24.dp))
     }
 }
