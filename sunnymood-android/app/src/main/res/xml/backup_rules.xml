@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 允许系统备份用户数据（数据库 + 设置）；诊断日志不参与备份 -->
+<full-backup-content>
+    <include domain="database" path="sunnymood.db" />
+    <include domain="file" path="datastore/" />
+</full-backup-content>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- 诊断日志 zip 导出（cache 临时目录，FileProvider + 系统分享，零存储权限） -->
+    <cache-path name="diagnostics" path="diagnostics/" />
+</paths>

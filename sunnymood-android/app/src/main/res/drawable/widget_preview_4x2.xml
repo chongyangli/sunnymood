@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 4x2 小组件列表预览（低版本 previewImage 兜底） -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="250dp"
+    android:height="110dp"
+    android:viewportWidth="250"
+    android:viewportHeight="110">
+    <path
+        android:pathData="M28,4h194a24,24 0 0,1 24,24v54a24,24 0 0,1 -24,24h-194a24,24 0 0,1 -24,-24v-54a24,24 0 0,1 24,-24Z">
+        <aapt:attr xmlns:aapt="http://schemas.android.com/aapt" name="android:fillColor">
+            <gradient
+                android:angle="270"
+                android:endColor="#E8F7FAF9"
+                android:startColor="#E8EFF6F2"
+                android:type="linear" />
+        </aapt:attr>
+    </path>
+    <path android:fillColor="#5A6068" android:pathData="M30,28h56v4h-56Z" />
+    <path android:fillColor="#5A6068" android:pathData="M168,28h52v4h-52Z" />
+    <path android:fillColor="#E85D8A" android:pathData="M62,70m-10,0a10,10 0 1,1 20,0a10,10 0 1,1 -20,0" />
+    <path android:fillColor="#F0716B" android:pathData="M94,70m-10,0a10,10 0 1,1 20,0a10,10 0 1,1 -20,0" />
+    <path android:fillColor="#F5A46B" android:pathData="M126,70m-10,0a10,10 0 1,1 20,0a10,10 0 1,1 -20,0" />
+    <path android:fillColor="#F5C26B" android:pathData="M158,70m-10,0a10,10 0 1,1 20,0a10,10 0 1,1 -20,0" />
+    <path android:fillColor="#B5D46A" android:pathData="M190,70m-10,0a10,10 0 1,1 20,0a10,10 0 1,1 -20,0" />
+    <path android:fillColor="#7ED3A0" android:pathData="M222,70m-10,0a10,10 0 1,1 20,0a10,10 0 1,1 -20,0" />
+    <path android:fillColor="#34C77B" android:pathData="M248,70m-10,0a10,10 0 1,1 20,0a10,10 0 1,1 -20,0" />
+</vector>

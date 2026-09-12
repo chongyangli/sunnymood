@@ -1,0 +1,22 @@
+<resources>
+    <style name="Theme.SunnyMood" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/app_bg</item>
+        <item name="android:statusBarColor">@color/app_bg</item>
+        <item name="android:navigationBarColor">@color/app_bg</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="Theme.SunnyMood.Panel">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.5</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@style/PanelAnimation</item>
+    </style>
+
+    <style name="PanelAnimation">
+        <item name="android:windowEnterAnimation">@anim/panel_in</item>
+        <item name="android:windowExitAnimation">@anim/panel_out</item>
+    </style>
+</resources>

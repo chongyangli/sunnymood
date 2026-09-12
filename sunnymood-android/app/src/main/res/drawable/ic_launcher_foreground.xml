@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- App 图标前景：第 5 档「含笑」情绪简笔（视觉母题），置于 66dp 安全区中心 -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- 脸 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,30a24,24 0 1,1 -0.01,0Z" />
+    <!-- 眼点 -->
+    <path
+        android:fillColor="#E07840"
+        android:pathData="M44.4,49a2.6,2.6 0 1,0 5.2,0a2.6,2.6 0 1,0 -5.2,0Z" />
+    <path
+        android:fillColor="#E07840"
+        android:pathData="M58.4,49a2.6,2.6 0 1,0 5.2,0a2.6,2.6 0 1,0 -5.2,0Z" />
+    <!-- 含笑嘴 -->
+    <path
+        android:strokeColor="#E07840"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M44,61Q54,69 64,61" />
+    <!-- 光晕高光（左上，呼应光场美学） -->
+    <path
+        android:fillColor="#33FFFFFF"
+        android:pathData="M42,36a16,16 0 0,1 8,-5.5a20,20 0 0,0 -8,5.5Z" />
+</vector>

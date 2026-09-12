@@ -1,0 +1,136 @@
+<resources>
+    <string name="app_name">心晴</string>
+    <string name="widget_4x1_label">心晴 · 一键记录（紧凑）</string>
+    <string name="widget_4x2_label">心晴 · 一键记录</string>
+
+    <!-- 记录面板 -->
+    <string name="panel_recorded">已记录</string>
+    <string name="panel_body_feelings_title">今天的身体感觉（可多选）</string>
+    <string name="panel_done">完成</string>
+
+    <!-- 记录面板（编辑模式） -->
+    <string name="panel_edit_title">编辑记录</string>
+    <string name="panel_edit_feelings_title">身体感觉（可多选）</string>
+    <string name="panel_save">保存</string>
+    <string name="panel_delete">删除这条记录</string>
+    <string name="panel_delete_confirm_title">删除这条记录？</string>
+    <string name="panel_delete_confirm_desc">删除后不可恢复</string>
+    <string name="dialog_cancel">取消</string>
+    <string name="dialog_confirm_delete">删除</string>
+    <string name="panel_saved">已保存</string>
+    <string name="panel_deleted">已删除</string>
+
+    <!-- 首页 -->
+    <string name="home_today_empty">还没有记录\n点下面的图标，记下第一条心情吧</string>
+    <string name="home_timeline_title">今日记录</string>
+    <string name="home_settings">设置</string>
+    <string name="home_trend_title">近 7 日</string>
+
+    <!-- 小组件引导 -->
+    <string name="guide_title">把「一键记录」放到桌面</string>
+    <string name="guide_step_1">长按桌面空白处 → 选择「小组件 / Widget」</string>
+    <string name="guide_step_2">找到「心晴」，选喜欢的尺寸（推荐 4×2 大图标）</string>
+    <string name="guide_step_3">拖到桌面后，点图标 1 秒完成记录</string>
+
+    <!-- 日历 -->
+    <string name="calendar_empty">本月还没有记录\n回首页记一笔吧</string>
+    <string name="calendar_day_empty">这一天没有记录</string>
+    <string name="cd_prev_month">上个月</string>
+    <string name="cd_next_month">下个月</string>
+
+    <!-- 报告 -->
+    <string name="nav_report">报告</string>
+    <string name="cd_nav_report">报告</string>
+    <string name="report_empty">本月还没有记录\n记录几天后，这里会生成你的心情报告</string>
+    <string name="report_score_recorded">记录 %1$d/%2$d 天</string>
+    <string name="report_distribution">心情分布</string>
+    <string name="report_dist_item">%1$s %2$d 条（%3$d%%）</string>
+    <string name="report_trend">每日趋势（含 7 日移动平均）</string>
+    <string name="report_body">身体感觉</string>
+    <string name="report_body_empty">本月还没有勾选过身体感觉</string>
+    <string name="report_body_days">%1$d 天</string>
+    <string name="report_corr_down">出现「%1$s」的日子，心情平均低 %2$s 分</string>
+    <string name="report_corr_up">出现「%1$s」的日子，心情平均高 %2$s 分</string>
+    <string name="report_insights">洞察</string>
+    <string name="report_insights_empty">记录再多一点，这里会有更多发现</string>
+    <string name="report_happiest">最快乐的一天：%1$s（%2$s 分）</string>
+    <string name="report_best_weekday">心情最好的星期：%1$s（%2$s 分）</string>
+    <string name="report_streak">最长连续记录：%1$d 天</string>
+    <string name="report_advices">给你的建议</string>
+    <string name="report_care_title">这段时间辛苦了</string>
+    <string name="report_care_body">连续多日状态偏低，记得让自己休息，也可以和信任的人聊聊。如需帮助，可拨打全国心理援助热线 12356。</string>
+    <string name="report_summary_up">本月平均 %1$s 分，比上月高 %2$s 分，继续保持</string>
+    <string name="report_summary_down">本月平均 %1$s 分，比上月低 %2$s 分，别急，先照顾好自己</string>
+    <string name="report_summary_same">本月平均 %1$s 分，与上月基本持平</string>
+    <string name="report_summary_noprev">本月平均 %1$s 分</string>
+    <string name="report_disclaimer">以上内容来自记录数据的统计规律，属通用生活方式建议，不构成医疗诊断。</string>
+
+    <!-- 设置 -->
+    <string name="settings_tap_only">纯点击模式</string>
+    <string name="settings_tap_only_desc">点击小组件图标直接记录，不弹出身体感觉面板</string>
+    <string name="settings_export_data">导出数据</string>
+    <string name="settings_export_data_desc">CSV（Excel 可开）或 JSON，走系统分享，零存储权限</string>
+    <string name="export_data_ok">已生成导出文件</string>
+    <string name="export_data_fail">导出失败，请重试</string>
+    <string name="settings_sync">云同步（端到端加密）</string>
+    <string name="settings_sync_desc">绑定你自己的网盘（坚果云等），数据加密后才上传</string>
+    <string name="settings_privacy">《隐私政策》</string>
+    <string name="settings_privacy_desc">数据默认只存本机；随时可清空全部数据</string>
+    <string name="settings_export_diag">导出诊断日志</string>
+    <string name="settings_export_diag_desc">打包最近 7 天的崩溃与操作日志（不含心情内容），用于排障</string>
+    <string name="diag_exported">诊断日志已导出</string>
+    <string name="diag_export_failed">导出失败，请重试</string>
+    <string name="settings_clear_all">清空全部数据</string>
+    <string name="settings_clear_all_desc">删除本机所有心情记录，不可恢复</string>
+    <string name="settings_clear_all_confirm">确定清空本机全部记录吗？此操作不可撤销。</string>
+    <string name="settings_clear_also_cloud">同时删除云端备份</string>
+
+    <!-- 隐私政策 -->
+    <string name="privacy_dialog_title">欢迎使用心晴</string>
+    <string name="privacy_dialog_agree_hint">我已阅读并同意《隐私政策》</string>
+    <string name="privacy_dialog_agree">同意并继续</string>
+    <string name="privacy_dialog_decline">不同意</string>
+    <string name="privacy_dialog_decline_hint">不同意将无法使用本应用</string>
+
+    <!-- 云同步 -->
+    <string name="sync_title">云同步</string>
+    <string name="sync_intro">数据先在手机上加密（AES-256-GCM，密钥由同步口令派生），再上传到你自己的网盘。网盘与开发者均无法解密。未开启时 App 零网络请求。</string>
+    <string name="sync_server">服务器地址</string>
+    <string name="sync_account">账号</string>
+    <string name="sync_app_password">应用密码</string>
+    <string name="sync_app_password_hint">坚果云请在「账户信息 → 安全选项」中生成应用密码，不要用登录密码</string>
+    <string name="sync_test">测试连接</string>
+    <string name="sync_test_ok">连接成功 ✓</string>
+    <string name="sync_test_fail">连接失败：%1$s</string>
+    <string name="sync_err_network">网络异常或地址不可达</string>
+    <string name="sync_now">立即同步</string>
+    <string name="sync_done_ok">同步完成</string>
+    <string name="sync_done_fail">同步失败</string>
+    <string name="sync_passphrase_title">设置同步口令</string>
+    <string name="sync_passphrase_set">同步口令已设置</string>
+    <string name="sync_passphrase_warn">口令用于加密你的数据，云端无法解密。请务必牢记并抄写备份：口令丢失将无法恢复云端备份（本地数据不受影响）。</string>
+    <string name="sync_passphrase">同步口令（至少 6 位）</string>
+    <string name="sync_passphrase_confirm">再次输入口令</string>
+    <string name="sync_passphrase_short">口令至少需要 6 位</string>
+    <string name="sync_passphrase_mismatch">两次输入的口令不一致</string>
+    <string name="sync_passphrase_saved">口令已保存，可以开始同步</string>
+    <string name="sync_passphrase_save">保存口令</string>
+    <string name="sync_auto">自动同步</string>
+    <string name="sync_auto_desc">记录 / 编辑 / 删除后 30 秒自动同步；关闭后仅手动同步</string>
+    <string name="sync_close">完成</string>
+    <string name="sync_never">从未</string>
+    <string name="sync_status_never">上次同步：从未</string>
+    <string name="sync_status_ok">上次同步：%1$s ✓</string>
+    <string name="sync_status_fail">上次同步：%1$s 失败（%2$s）</string>
+
+    <!-- 底部导航 -->
+    <string name="nav_home">首页</string>
+    <string name="nav_calendar">日历</string>
+    <string name="cd_nav_home">首页</string>
+    <string name="cd_nav_calendar">日历</string>
+
+    <!-- 无障碍 -->
+    <string name="cd_mood_icon">%1$s，第 %2$d 级</string>
+    <string name="cd_settings">设置</string>
+    <string name="cd_record_mood">记录心情：%1$s</string>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 心情 3/7 有点低：微沉（浅橙） -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:fillColor="#F5A46B"
+        android:pathData="M12,3a9,9 0 1,1 -0.01,0Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M8.6,10.4a1.05,1.05 0 1,0 2.1,0a1.05,1.05 0 1,0 -2.1,0Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M13.3,10.4a1.05,1.05 0 1,0 2.1,0a1.05,1.05 0 1,0 -2.1,0Z" />
+    <!-- 嘴（轻微下垂） -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:pathData="M8.4,15.2Q12,13.3 15.6,15.2" />
+</vector>

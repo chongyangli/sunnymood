@@ -1,0 +1,16 @@
+<resources>
+    <!-- 全局背景（浅色：暖调米白，呼应「晴」） -->
+    <color name="app_bg">#FAF8F4</color>
+    <color name="app_surface">#FFFFFF</color>
+
+    <!-- 小组件（半透明质感容器） -->
+    <color name="widget_bg">#E8F7FAF9</color>
+    <color name="widget_bg_stroke">#14FFFFFF</color>
+    <color name="widget_text_primary">#FF1C1E21</color>
+    <color name="widget_text_secondary">#FF5A6068</color>
+    <color name="widget_highlight">#FF9F5A</color>
+
+    <!-- 记录面板 -->
+    <color name="panel_scrim">#66000000</color>
+    <color name="panel_surface">#F2FFFFFF</color>
+</resources>

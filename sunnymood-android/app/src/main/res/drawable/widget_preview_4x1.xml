@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 4x1 小组件列表预览（低版本 previewImage 兜底，API 31+ 使用 previewLayout） -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="250dp"
+    android:height="48dp"
+    android:viewportWidth="250"
+    android:viewportHeight="48">
+    <path
+        android:pathData="M24,2h202a22,22 0 0,1 22,22v0a22,22 0 0,1 -22,22h-202a22,22 0 0,1 -22,-22v0a22,22 0 0,1 22,-22Z">
+        <aapt:attr xmlns:aapt="http://schemas.android.com/aapt" name="android:fillColor">
+            <gradient
+                android:angle="270"
+                android:endColor="#E8F7FAF9"
+                android:startColor="#E8EFF6F2"
+                android:type="linear" />
+        </aapt:attr>
+    </path>
+    <path android:fillColor="#E85D8A" android:pathData="M62,24m-6,0a6,6 0 1,1 12,0a6,6 0 1,1 -12,0" />
+    <path android:fillColor="#F0716B" android:pathData="M90,24m-6,0a6,6 0 1,1 12,0a6,6 0 1,1 -12,0" />
+    <path android:fillColor="#F5A46B" android:pathData="M118,24m-6,0a6,6 0 1,1 12,0a6,6 0 1,1 -12,0" />
+    <path android:fillColor="#F5C26B" android:pathData="M146,24m-6,0a6,6 0 1,1 12,0a6,6 0 1,1 -12,0" />
+    <path android:fillColor="#B5D46A" android:pathData="M174,24m-6,0a6,6 0 1,1 12,0a6,6 0 1,1 -12,0" />
+    <path android:fillColor="#7ED3A0" android:pathData="M202,24m-6,0a6,6 0 1,1 12,0a6,6 0 1,1 -12,0" />
+    <path android:fillColor="#34C77B" android:pathData="M230,24m-6,0a6,6 0 1,1 12,0a6,6 0 1,1 -12,0" />
+</vector>

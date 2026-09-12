@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 点击反馈（普通权限，免申请） -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <!-- 云同步（M5）预留：v1.6 起 P0 声明；同步默认关闭，未开启时零网络请求 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".SunnyMoodApp"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SunnyMood">
+
+        <!-- 主界面（首页 / 日历 / 报告 / 设置） -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- 记录面板：Widget / App 内点击心情图标后弹出，透明主题，onCreate 立即落库 -->
+        <activity
+            android:name=".ui.record.RecordPanelActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:taskAffinity=""
+            android:theme="@style/Theme.SunnyMood.Panel"
+            android:windowSoftInputMode="stateHidden" />
+
+        <!-- 4x1 紧凑版小组件 -->
+        <receiver
+            android:name=".widget.MoodWidgetProvider4x1"
+            android:exported="false"
+            android:label="@string/widget_4x1_label">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_info_4x1" />
+        </receiver>
+
+        <!-- 4x2 大图标版小组件（主推） -->
+        <receiver
+            android:name=".widget.MoodWidgetProvider4x2"
+            android:exported="false"
+            android:label="@string/widget_4x2_label">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_info_4x2" />
+        </receiver>
+
+        <!-- 纯点击模式：广播直接落库（不弹面板） -->
+        <receiver
+            android:name=".widget.MoodClickReceiver"
+            android:exported="false" />
+
+        <!-- 诊断日志导出（FileProvider，零存储权限） -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+    </application>
+</manifest>

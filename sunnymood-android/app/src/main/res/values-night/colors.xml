@@ -1,0 +1,14 @@
+<resources>
+    <color name="app_bg">#17181C</color>
+    <color name="app_surface">#1F2126</color>
+
+    <!-- 小组件深色适配（保持光感层次） -->
+    <color name="widget_bg">#E61C2024</color>
+    <color name="widget_bg_stroke">#14FFFFFF</color>
+    <color name="widget_text_primary">#FFF2F3F5</color>
+    <color name="widget_text_secondary">#FFA8ADB5</color>
+    <color name="widget_highlight">#FFB880</color>
+
+    <color name="panel_scrim">#99000000</color>
+    <color name="panel_surface">#F21F2126</color>
+</resources>
